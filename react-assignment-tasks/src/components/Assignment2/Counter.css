@@ -1,0 +1,42 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .count-display {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .counter-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter-button.decrease {
+    background-color: #dc3545;
+  }
+  
+  .counter-button.decrease:hover {
+    background-color: #bb2d3b;
+  }
+  
+  .counter-button.increase {
+    background-color: #28a745;
+  }
+  
+  .counter-button.increase:hover {
+    background-color: #218838;
+  }
