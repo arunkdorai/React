@@ -700,6 +700,9 @@ const functionName = (parameters) => {
 - Use **arrow functions** when you want to have concise syntax, maintain the `this` value from the surrounding context, and avoid issues with the `arguments` object.
 - For regular methods that need their own `this` binding or when using a constructor function, regular functions are a better choice.
 
+---
+---
 
-### **https://chatgpt.com/share/677fbf83-d2cc-800a-abf6-292445cbde78**
+### ChatGPT chat which has questions and answers:
+- https://chatgpt.com/share/677fbf83-d2cc-800a-abf6-292445cbde78**
 

@@ -1,0 +1,14 @@
+{
+  "name": "01-inception",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
