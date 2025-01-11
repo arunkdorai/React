@@ -1,18 +1,30 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// JSX - HTML or XML like syntax - (transplied before it reaches the JS) - PARCEL - Babel
+// React Element
 
-// JSX => Babel transpiles it to React.createElement => ReactElement - JS Object => HTMLElement(render)
-
-const jsxHeading = (
+const heading = (
   <h1 className="head" tabIndex={5}>
     Namaste react using JSX
   </h1>
 );
 
-console.log(jsxHeading);
+/*
+* React Component
+
+! 1. Class Based Component  - Old way to write React components
+? 2. Functional Component - New way to write React components
+
+*/
+
+// * Functional Component
+
+const HeadingComponent = () => {
+  return <h1>Namaste React Functional Component</h1>;
+};
+
+const HeadingComponent2 = () => <h1>Functional Component 2</h1>;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(jsxHeading);
+root.render(heading);
