@@ -23,8 +23,12 @@ const HeadingComponent = () => {
   return <h1>Namaste React Functional Component</h1>;
 };
 
-const HeadingComponent2 = () => <h1>Functional Component 2</h1>;
+const HeadingComponent2 = () => (
+  <div>
+    <h1 className="heading">Functional Component 2</h1>
+  </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(<HeadingComponent2 />);
