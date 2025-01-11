@@ -7,11 +7,10 @@ const Title = () => (
   </h1>
 );
 
-// * Component Composition
 
 const HeadingComponent = () => (
   <div id="container">
-    <Title />
+    <h1>{console.log("hhkkkk")}</h1>
     <h1 className="heading">Namaste React Functional Component</h1>
   </div>
 );
