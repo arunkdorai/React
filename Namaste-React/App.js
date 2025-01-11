@@ -1,16 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Title = () => (
+const title = (
   <h1 className="head" tabIndex="5">
     Namaste react using JSX
   </h1>
 );
 
-
 const HeadingComponent = () => (
   <div id="container">
-    <h1>{console.log("hhkkkk")}</h1>
+    {title}
     <h1 className="heading">Namaste React Functional Component</h1>
   </div>
 );
